@@ -1,3 +1,45 @@
+.greeting {
+    font-family: 'Roboto Mono', monospace;
+    color: #d6d5c9;
+}
+
 h1 {
     font-family: 'Roboto Mono', monospace;
+}
+
+.jumbotron {
+    background-color: #bb1c21!important;
+}
+
+h4, p {
+    font-family: 'Roboto';
+}
+
+.title {
+    color: #d6d5c9;
+}
+
+.icons {
+    padding: 10px;
+}
+
+.copyright-text {
+    padding-bottom: 20px;
+}
+
+.home-link {
+    color: #fa7900;
+}
+
+.home-link:hover {
+    color: #bb1c21;
+}
+
+.blog-link {
+    color: #fa7900 !important;
+}
+
+.blog-link:hover {
+    color: #bb1c21 !important;
+    text-decoration-line: none !important;
 }
