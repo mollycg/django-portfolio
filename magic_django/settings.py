@@ -25,8 +25,6 @@ SECRET_KEY = 'at&*&4^rhsfkq5s30l14$1bpv677bg&o8(8&ekp3+g3imr$h+v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mollycg.pythonanywhere.com']
-
 
 # Application definition
 
@@ -124,3 +122,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+try:
+    from .local_settings import *
+except ImportError:
+    print("No local settings file. You must be on production.")
