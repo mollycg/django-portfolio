@@ -1,1 +1,0 @@
-web: gunicorn magic_django.wsgi
